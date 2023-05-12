@@ -1,0 +1,9 @@
+.App {
+    width: 100vw;
+    
+}
+
+
+::-webkit-scrollbar {
+    width: 0;
+}

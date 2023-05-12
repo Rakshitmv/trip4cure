@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.featuredDestination_Page {
+    position: relative;
+    width: 100%;
+    /* max-width: 100%; */
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(243, 239, 239) 50%, white 50%, white 100%);
+    border: 2px solid rgb(4, 129, 255);
+
+}
+
+.destination_heading {
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+.destination_name {
+    /* border: 2px solid blueviolet; */
+    margin-left: 300px;
+    height: 50px;
+    width: 700px;
+    text-align: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.destination_info {
+    display: flex;
+    /* border: 2px solid saddlebrown; */
+    font-size: medium;
+    margin-left: 300px;
+    height: 100px;
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+
+.arrow_sec {
+    position: absolute;
+    top: 70px;
+    bottom: 100px;
+    left: 1080px;
+    width: 100px;
+    height: 80px;
+    /* border: 2px solid black; */
+    
+}
+
+.lessthen1 {
+    position: absolute;
+    
+}
+
+.greaterthen1 {
+    position: absolute;
+    left: 30px;
+}
+
+.arrow_sec img {
+    display: flex;
+    flex-direction: row;
+}
+
+.location {
+    display: flex;
+    margin-left: 300px;
+    width: 1000px;
+    height: 370px;
+    /* border: 2px solid black; */
+    gap: 30px;
+}
+
+.india, .spain, .germany {
+    width: 270px;
+    height: 370px;
+    /* border:  2px solid blue; */
+}
+
+ .india_img, .spain_img, .germany_img {
+    width: 270px;
+    height: 370px;
+
+}
+
+.i_flag {
+    position: absolute;
+    top: 190px;
+    left: 310px;
+}
+.s_flag {
+    position: absolute;
+    top: 190px;
+    left: 610px;
+}
+.g_flag {
+    position: absolute;
+    top: 190px;
+    left: 910px;
+}
+
+.location_info {
+    position: absolute;
+    top: 440px;
+    left: 400px;
+    color: white;
+    font-size: xx-large;
+}
+
+.location_info-1 {
+    position: absolute;
+    top: 440px;
+    left: 700px;
+    color: white;
+    font-size: xx-large;
+}
+
+.location_info-2 {
+    position: absolute;
+    top: 440px;
+    left: 970px;
+    color: white;
+    font-size: xx-large;
+}
+
+.location_info1 {
+    position: absolute;
+    top: 490px;
+    left: 360px;
+    color: white;
+    font-size: large;
+}
+
+.location_info2 {
+    position: absolute;
+    top: 490px;
+    left: 660px;
+    color: white;
+    font-size: large;
+}
+
+.location_info3 {
+    position: absolute;
+    top: 490px;
+    left: 960px;
+    color: white;
+    font-size: large;
+}
+
+.destination_button {
+    margin-top: 50px;
+    text-align: center;
+    /* border: 2px solid salmon ; */
+    margin-bottom: 100px;
+}
+
+.destination_btn {
+    color: red;
+    border-color: red;
+    padding: 4px 32px;
+}
