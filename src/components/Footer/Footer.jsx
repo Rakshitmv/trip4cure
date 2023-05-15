@@ -21,7 +21,7 @@ export default function Footer() {
             
             <div className='logo_white_down'>
                 <ul className='li'>
-                <img src={logo_white} height={170} width={130}/>
+                <img src={logo_white} height={150} width={120}/>
             
                   </ul>
                 </div>
@@ -103,39 +103,40 @@ export default function Footer() {
                 <MDBCol lg='3' md='6' className='speciality_footer'>
                   <div className='special_col'>
                       <h5 className='text-Uppercase md-2'>Featured Specialities</h5>
-
-                      <ul className='list-unstyled mb-0'>
-                        <li>
-                          <a href='#!' className='text-white'>
-                        Cancer Treatment
-                          </a>
-                        </li>
-                        <li>
-                          <a href='#!' className='text-white'>
-                            Cardiac Surgery 
-                          </a>
-                        </li>
-                        <li>
-                          <a href='#!' className='text-white'>
-                            Cosmetics Surgery
-                          </a>
-                        </li>
-                        <li>
-                          <a href='#!' className='text-white'>
-                            Fertility Treatment
-                          </a>
-                        </li>
-                        <li>
-                          <a href='#!' className='text-white'>
-                            Neurology
-                          </a>
-                        </li>
-                        <li>
-                          <a href='#!' className='text-white'>
-                            Orthopedic Surgery
-                          </a>
-                        </li>
-                            </ul>
+                      <div className='special_col_down'>
+                        <ul className='list-unstyled mb-0'>
+                          <li>
+                            <a href='#!' className='text-white'>
+                          Cancer Treatment
+                            </a>
+                          </li>
+                          <li>
+                            <a href='#!' className='text-white'>
+                              Cardiac Surgery 
+                            </a>
+                          </li>
+                          <li>
+                            <a href='#!' className='text-white'>
+                              Cosmetics Surgery
+                            </a>
+                          </li>
+                          <li>
+                            <a href='#!' className='text-white'>
+                              Fertility Treatment
+                            </a>
+                          </li>
+                          <li>
+                            <a href='#!' className='text-white'>
+                              Neurology
+                            </a>
+                          </li>
+                          <li>
+                            <a href='#!' className='text-white'>
+                              Orthopedic Surgery
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
             </MDBCol>
 
