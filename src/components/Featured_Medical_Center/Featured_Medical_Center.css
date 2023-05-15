@@ -10,23 +10,26 @@
 .featured_Page {
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(220, 213, 213); */
-    width: 100% ;
-    height: 100vh;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(220, 213, 213);
+    width: 100%;
+    height: 130vh;
     /* max-width: 100%; */
-    border: 2px solid green;
-    padding-left: 270px;
+    /* border: 2px solid green; */
+    /* padding-left: 270px; */
 
 }
 
-.section1 {
+.part_1 {
     width: 900px;
+    margin-top: 50px;
     height: 120px;
     /* border: 2px solid black; */
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-   
+
+
 }
 
 .medical_heading {
@@ -36,11 +39,14 @@
 
 .section2 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 900px;
     height: calc(100vh -300px);
     /* border: 2px solid  burlywood; */
     margin-left: 100px;
-    margin-top: -30px;
+    margin-top: 70px;
+    /* margin-top: -30px; */
 
 }
 
@@ -51,19 +57,19 @@
     text-align: center;
     flex-wrap: wrap;
     gap: 20px;
-    
+
 }
 
 .card {
     box-shadow: 5px 10px 18px rgb(245, 3, 3);
-    
+
 }
 
 .button_red {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     /* border: 2px solid blueviolet; */
     width: 300px;
     height: 90px;
@@ -76,5 +82,5 @@
     border: red;
     margin: 4px;
     background-color: rgb(199, 51, 51);
-    
+
 }

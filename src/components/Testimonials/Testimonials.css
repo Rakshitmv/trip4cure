@@ -5,10 +5,10 @@
 }
 
 .testimonial_Page {
-    width: 100% ;
+    width: 100%;
     /* max-width: 100%; */
     height: 80vh;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     background-image: url(./Images/Bg_Testimonials.png);
     background-size: cover;
     color: white;
@@ -39,6 +39,7 @@
 
     padding-left: 230px;
 }
+
 .guest_speech {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
@@ -48,9 +49,10 @@
     margin-bottom: 50px;
 }
 
-.guest_name{
+.guest_name {
     text-align: center;
 }
+
 .guest_location {
     text-align: center;
 }
@@ -72,7 +74,7 @@
     border-radius: 50%;
     border: white;
     margin: 4px;
-    background-color:white;
+    background-color: white;
 
 }
 

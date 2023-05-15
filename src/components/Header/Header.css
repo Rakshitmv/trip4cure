@@ -8,11 +8,11 @@
 .announcement {
     display: flex;
     /* overflow-y: hidden; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-left: 16em;
-    width: 100% ;
-    height: 5vh ;
-    
+    /* width: 100% ; */
+    height: 5vh;
+
 }
 
 .announcement .announ_logo {
@@ -30,10 +30,10 @@
     text-align: center;
     padding-right: 27px;
     background-color: #54b6ce;
-    margin-right:  1em;
+    margin-right: 1em;
     justify-content: center;
     color: white;
-    
+
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -53,7 +53,7 @@
     margin-top: 10px;
 }
 
-.logo  {
+.logo {
     display: flex;
     /* border:  2px solid black; */
     width: 100px;
@@ -62,16 +62,16 @@
     margin-right: 30px;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
 
 .media_logo {
-        display: flex;
-        /* border: 2px solid black; */
-        width: 20px;
-        height: 20px;
-        justify-content: space-between;
-        
+    display: flex;
+    /* border: 2px solid black; */
+    width: 20px;
+    height: 20px;
+    justify-content: space-between;
+
 }
 
 #language {
@@ -80,13 +80,13 @@
 }
 
 .header_mainpage {
-    width: 100% ;
+    width: 100%;
     /* max-width: 100%; */
     /* overflow: hidden; */
     height: calc(100vh - 5vh);
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-image: url(./Images/Background.png);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-position-x: right;
     /* background-position-y: top;     */
     background-size: cover;
@@ -94,30 +94,31 @@
 
 .header_mainpage .header1 {
     display: flex;
-    justify-content: space-evenly;
-    width: 100vw auto;
+    justify-content: space-around;
+    width: 100%;
     height: 150px;
     /* border: 2px solid black; */
 }
 
 .header1 #main_logo {
     display: flex;
-   
+    /* justify-content: center; */
+    margin-left: -50px;
     width: 250px;
     height: 150px;
-    /* border: 2px solid black; */  
+    /* border: 2px solid black; */
 }
 
-.button1 {
+.button_1 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 17px;
-    margin-right: 120px;
+    margin-right: 90px;
     width: 250px;
     height: 100px;
     /* border: 2px solid red; */
-    
+
 }
 
 .signup_btn {
@@ -130,7 +131,7 @@
 .contact_btn {
     background-color: #ed1d24;
     border: red;
-    color:  white;
+    color: white;
     margin: 4px;
     width: 120px;
     height: 30px;
@@ -150,15 +151,15 @@
 }
 
 .innertext1 {
-       /* border: 2px solid black; */
-        width: 700px;
-        text-align: left;
-        margin-left: 260px;
-        color: black;
-        font-size: 53px;
-        font-weight: bolder;
-        text-size-adjust: 50px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     
+    /* border: 2px solid black; */
+    width: 700px;
+    text-align: left;
+    margin-left: 260px;
+    color: black;
+    font-size: 53px;
+    font-weight: bolder;
+    text-size-adjust: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .select-wrap {
@@ -182,9 +183,10 @@
 .left_side1 {
     color: white;
 }
+
 .color {
     margin-left: 0;
-    width:100px;
+    width: 100px;
     height: 25px;
 }
 
@@ -193,26 +195,31 @@ select {
     border: 0px;
 }
 
- 
-.select  {
+.select-container {
+    /* padding-left: 5rem; */
+}
+
+.select {
     display: flex;
-    margin-left: 270px;
-    width: 1000px;
+    margin-left: 1rem;
+    width: 1040px;
     height: 70px;
+    margin-left: 15rem;
+    /* padding: 1rem; */
     /* border: 2px solid blue; */
     background-color: rgba(228, 223, 223, 0.2);
 }
 
 
 
-.btn_btn_info{
+.btn_btn_info {
     margin-left: 20px;
     width: 120px;
     height: 70px;
     color: white;
     opacity: 0.9;
     background-color: rgba(253, 0, 0, 0.6);
-} 
+}
 
 .speciality {
     display: flex;
@@ -222,7 +229,7 @@ select {
     width: 400px;
     height: 30px;
     border-color: red;
-    
+
 }
 
 
@@ -248,9 +255,9 @@ select {
     opacity: 1;
     background-color: white;
     border-color: white;
-    color: rgba(0, 0, 0, 0.895);    
+    color: rgba(0, 0, 0, 0.895);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+
 }
 
 .options .option-icons {

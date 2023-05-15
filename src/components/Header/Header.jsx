@@ -44,7 +44,7 @@ const Header = () => {
       <div className='header_mainpage'>
           <div className='header1'>
             <img id='main_logo' src={main_logo} alt='image'></img>
-            <div className='button1'>
+            <div className='button_1'>
               <button className='signup_btn'>Sign Up</button>
               <button className='contact_btn'>Contact Us</button>
             </div>

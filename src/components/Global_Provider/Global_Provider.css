@@ -9,7 +9,7 @@
     width: 100%;
     /* max-width: 100%; */
     height: 55vh;
-    border: 2px solid salmon;
+    /* border: 2px solid salmon; */
 }
 
 .global_text {
@@ -25,14 +25,14 @@
 .global_info {
     text-align: left;
     /* color: black; */
-   
+
 }
 
 .arrow_1 {
     position: absolute;
     top: 20px;
     bottom: 100px;
-    left: 1100px;  
+    left: 1100px;
     width: 100px;
     height: 80px;
     /* border: 2px solid black; */
@@ -52,6 +52,7 @@
 
 .global_card {
     display: flex;
+    
     justify-content: space-between;
     width: 900px;
     height: 120px;
@@ -61,13 +62,17 @@
 }
 
 .global_card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 210px;
     height: 120px;
     border: 2px solid skyblue;
-    
+
 }
 
-.global_card2 , .global_card4{
+.global_card2,
+.global_card4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,5 +80,4 @@
     height: 120px;
     border: 2px solid skyblue;
 }
-
 

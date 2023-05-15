@@ -16,7 +16,7 @@ const Featured_Medical_Center = () => {
   return (
       <>
           <div className='featured_Page'>
-              <div className='section1'>
+              <div className='part_1'>
                 <div className='medical_heading'>Featured Medical Centers</div>
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad mollitia ratione totam veniam impedit minus alias aperiam tempore possimus? Inventore quibusdam tempora suscipit. Itaque quam quaerat praesentium nisi numquam. Excepturi?</div>
               </div>

@@ -12,7 +12,7 @@ import colorwhite from './Images/Color-white.jpg'
 
 const Latest_Announcement = () => {
   return (
-      <>
+      <div className='announce_container'>
           <div className='announce_Page'>
               <div className='section1'>
                 <div className='announce_heading'>Latest Announcements</div>
@@ -58,7 +58,7 @@ const Latest_Announcement = () => {
                         </Card>                       
                   </div>
                 </div>
-                <div className='hotel_cards_info'>
+                <div className='hotel_cards_info' >
                     <div className='announce_cards'>
                         <Card  className='announce_card_1'  >
                         <CardActionArea >
@@ -124,7 +124,7 @@ const Latest_Announcement = () => {
                 </div>      
               
           </div>
-      </>
+      </div>
   )
 }
 
