@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -26,7 +28,7 @@
     width: 500px;
     margin-left: 300px;
     text-align: start;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
@@ -37,7 +39,7 @@
     margin-left: 300px;
     height: 100px;
     width: 500px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     font-size: small;
 }
 
@@ -46,7 +48,7 @@
     position: absolute;
     top: 70px;
     bottom: 100px;
-    left: 1080px;
+    left: 1150px;
     width: 100px;
     height: 80px;
     /* border: 2px solid black; */
@@ -119,6 +121,7 @@
     left: 410px;
     color: white;
     font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
 }
 
 .location_info-1 {
@@ -127,6 +130,7 @@
     left: 720px;
     color: white;
     font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
 }
 
 .location_info-2 {
@@ -135,6 +139,7 @@
     left: 1010px;
     color: white;
     font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
 }
 
 .location_info1 {
@@ -143,6 +148,7 @@
     left: 370px;
     color: white;
     font-size: large;
+    font-family: 'Poppins', sans-serif;
 }
 
 .location_info2 {
@@ -151,6 +157,7 @@
     left: 680px;
     color: white;
     font-size: large;
+    font-family: 'Poppins', sans-serif;
 }
 
 .location_info3 {
@@ -159,6 +166,7 @@
     left: 1000px;
     color: white;
     font-size: large;
+    font-family: 'Poppins', sans-serif;
 }
 
 .destination_button {

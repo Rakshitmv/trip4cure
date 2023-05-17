@@ -65,11 +65,11 @@ const Latest_Announcement = () => {
                             
                             <CardContent>
                             <Typography gutterBottom variant="h6" component="div" >
-                               Checking out the doctor
+                               Our New Miami Beach Hotel Is Open!
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                               A guide for what you should ask the doctor or surgeon in order to select 
+                                the right one for your needs.
                             </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -83,11 +83,11 @@ const Latest_Announcement = () => {
                         <CardActionArea >                        
                             <CardContent>
                             <Typography gutterBottom variant="h6" component="div">
-                                Checking out the doctor
+                                Know the secret of Resort
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                               <br></br> A guide for what you should ask the doctor or surgeon in order to select 
+                                the right one for your needs.
                             </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -102,11 +102,11 @@ const Latest_Announcement = () => {
                             
                             <CardContent>
                             <Typography gutterBottom variant="h6" component="div">
-                               Checking out the doctor
+                               How to book a Resort in best price on Mountain
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                A guide for what you should ask the doctor or surgeon in order to select 
+                                the right one for your needs.
                             </Typography>
                             </CardContent>
                         </CardActionArea>

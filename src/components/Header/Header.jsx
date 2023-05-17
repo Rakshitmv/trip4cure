@@ -33,10 +33,9 @@ const Header = () => {
         </div>
         <div className='language_sec'>
           <select id="language">
-            <option value="english">English</option>
-            <option value="hindi">Hindi</option>
-            <option value="marathi">Marathi</option>
-            <option value="gujurati">Gujurati</option>
+            <option value="english">ENGLISH</option>
+            <option value="spanish">Spanish</option>
+            <option value="arabic">Arabic</option>
           </select>
         </div>
       </div>
@@ -45,8 +44,9 @@ const Header = () => {
           <div className='header1'>
             <img id='main_logo' src={main_logo} alt='image'></img>
             <div className='button_1'>
-              <button className='signup_btn'>Sign Up</button>
+              <button className='signup_btn'>Sign In</button>
               <button className='contact_btn'>Contact Us</button>
+              <button className='hospital_btn'>Hospital Login</button>
             </div>
           </div> 
           <div className='text'>
@@ -59,9 +59,12 @@ const Header = () => {
                         <label className='left_side1'>Choose Speciality</label> <br></br>
                          <select className="color" style={{ width: 380 }}>
                             <option value="">All Specialty</option>
-                            <option value="yellow">Yellow</option>
-                            <option value="red">Red</option>
-                            <option value="green">Green</option>
+                            <option value="yellow">Cancer Treatment</option>
+                            <option value="red">Cardiac Surgery</option>
+                            <option value="green">Cosemtic Surgery</option>
+                            <option value="green">Fertility Treatment</option>
+                            <option value="green">Neurology</option>
+                            <option value="green">Orthopedic Surgery</option>
                           </select>
               </div>
               <div>
@@ -69,9 +72,12 @@ const Header = () => {
                         <label className='left_side'>Choose County</label> <br></br>
                           <select className="color" style={{ width: 380 }}>
                           <option value="">All countries</option>
-                          <option value="yellow">Yellow</option>
-                          <option value="red">Red</option>
-                          <option value="green">Green</option>
+                          <option value="yellow">Argentina</option>
+                          <option value="red">Germany</option>
+                          <option value="green">India</option>
+                          <option value="green">Malayasia</option>
+                          <option value="green">Mexico</option>
+                          <option value="green">Spain</option>
                         </select>
                 </div>
               

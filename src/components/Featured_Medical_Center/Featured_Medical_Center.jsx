@@ -22,11 +22,11 @@ const Featured_Medical_Center = () => {
               </div>
               <div className='section2'>
                   <div className='medical_card'>
-                      <Card  sx={{ maxWidth: 240, minWidth: 240,  }}>
+                      <Card  sx={{ maxWidth: 300, minWidth: 300 }}>
                     <CardActionArea>
                         <CardMedia
                         component="img"
-                        height="150"
+                        height="200"
                         // width="250"
                         image={img1}
                         alt="Hospital"
@@ -36,16 +36,16 @@ const Featured_Medical_Center = () => {
                             Galenia Hospital
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                          <p>Mexico- 16 specialities</p>
+                          <p>Mexico- 16 specialties</p>
                         </Typography>
                         </CardContent>
                     </CardActionArea>
                     </Card> 
-                    <Card sx={{ maxWidth: 240 }}>
+                    <Card sx={{ maxWidth: 300, minWidth: 300}}>
                     <CardActionArea>
                         <CardMedia
                         component="img"
-                        height="150"
+                        height="200"
                         image={img2}
                         alt="Hospital"
                         />
@@ -59,29 +59,29 @@ const Featured_Medical_Center = () => {
                         </CardContent>
                     </CardActionArea>
                     </Card> 
-                    <Card sx={{ maxWidth: 240 }}>
+                    <Card sx={{ maxWidth: 300, minWidth: 300, }}>
                     <CardActionArea>
                         <CardMedia
                         component="img"
-                        height="150"
+                        height="200"
                         image={img3}
                         alt="hospital"
                         />
                         <CardContent>
                         <Typography gutterBottom variant="h6" component="div">
-                            Hospital Universities Austra
+                            Hospital Universitario Austral
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                           Argentina- 3 specialities
+                           Argentina- 3 specialties
                         </Typography>
                         </CardContent>
                     </CardActionArea>
                     </Card> 
-                    <Card sx={{ maxWidth: 240 }}>
+                    <Card sx={{ maxWidth: 300, minWidth: 300 }}>
                     <CardActionArea>
                         <CardMedia
                         component="img"
-                        height="150"
+                        height="200"
                         image={img4}
                         alt="green iguana"
                         />
@@ -90,16 +90,16 @@ const Featured_Medical_Center = () => {
                             KPJ Damansara Specialist Hospital
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                         Malayasia- 28 specialities
+                         Malayasia- 28 specialties
                         </Typography>
                         </CardContent>
                     </CardActionArea>
                     </Card> 
-                    <Card sx={{ maxWidth: 240 }}>
+                    <Card sx={{ maxWidth:300, minWidth: 300 }}>
                     <CardActionArea>
                         <CardMedia
                         component="img"
-                        height="150"
+                        height="200"
                         image={img2}
                         alt="green iguana"
                         />
@@ -108,25 +108,25 @@ const Featured_Medical_Center = () => {
                             Apollo Hospital Chennai
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                           India- 25 specialities
+                           India- 25 specialties
                         </Typography>
                         </CardContent>
                     </CardActionArea>
                     </Card> 
-                    <Card sx={{ maxWidth: 240 }}>
+                    <Card sx={{ maxWidth: 300, minWidth: 300 }}>
                     <CardActionArea>
                         <CardMedia
                         component="img"
-                        height="150"
+                        height="200"
                         image={img3}
                         alt="green iguana"
                         />
                         <CardContent>
                         <Typography gutterBottom variant="h6" component="div">
-                           Hospital University Austria
+                           Hospital Universitario Austral
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Argenitina- 3 specialities
+                            Argenitina- 3 specialties
                         </Typography>
                         </CardContent>
                     </CardActionArea>
@@ -135,7 +135,7 @@ const Featured_Medical_Center = () => {
                   </div>
               </div>
               <div className='button_red'>
-                  <button aria-selected></button>
+                  <button></button>
                   <button></button>
                   <button></button>
               </div>

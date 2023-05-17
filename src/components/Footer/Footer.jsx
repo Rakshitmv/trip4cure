@@ -21,7 +21,7 @@ export default function Footer() {
             
             <div className='logo_white_down'>
                 <ul className='li'>
-                <img src={logo_white} height={150} width={120}/>
+                <img  src={logo_white} height={150} width={120}/>
             
                   </ul>
                 </div>
@@ -155,9 +155,9 @@ export default function Footer() {
           </MDBRow>
           </div>
         </MDBContainer>
-          <br></br><br></br>
+          <br></br>
         <div className='text-center p-3' style={{ backgroundColor: 'rgb(177, 63, 63);' , borderTop: '0.3px solid white'}}>
-          Copyright:{' '}  &copy; {new Date().getFullYear()} Trip4Cure,All Rights Reserved.
+          Copyright:{' '}  &copy; {new Date().getFullYear()} Trip4Cure, All Rights Reserved.
       
         </div>
         </MDBFooter>

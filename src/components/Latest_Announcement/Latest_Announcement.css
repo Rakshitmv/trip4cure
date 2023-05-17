@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -30,6 +32,8 @@
 }
 
 .announce_heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     width: 900px;
     height: 50px;
     font-size: xx-large;
@@ -40,6 +44,8 @@
     width: 600px;
     height: 90px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     /* border: 2px solid black; */
     margin-left: 150px;
     font-size: small;
@@ -101,7 +107,7 @@
     /* justify-content: space-around; */
     /* text-align: center; */
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 3.7rem;
     width: 100%;
     /* opacity: 0.9; */
 
@@ -111,16 +117,16 @@
     /* border: 2px solid violet; */
 
     height: 220px;
-    width: 250px;
-    opacity: 0.9;
+    width: 270px;
+    /* opacity: 0.9; */
 }
 
 .announce_card_3 {
     position: absolute;
-    margin-left: 610px;
+   
     /* border: 2px solid violet; */
     height: 220px;
-    width: 250px;
+    width: 270px;
     margin-left: 660px;
 }
 

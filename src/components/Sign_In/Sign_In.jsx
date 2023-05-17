@@ -23,7 +23,7 @@ const Sign_In = () => {
                     </div>
                         <div className='sign_in_form'>
                         <img className='sign_in_logo' src={signin}></img>
-                        <h3 className='sign_in_heading'>Sign Up</h3>
+                        <h3 className='sign_in_heading'>Sign In</h3>
                         <div className='sign_in_details'>                                     
                             <input type="email" className="email_in" placeholder='Email'/>  <br></br>
                             <input type="password" className="pwd_in" placeholder='Password' /><br></br>                    

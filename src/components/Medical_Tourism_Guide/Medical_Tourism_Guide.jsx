@@ -25,8 +25,8 @@ const Medical_Tourism_Guide = () => {
                                Checking out the doctor
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                                A guide for what you should ask the doctor or surgeon in order to select 
+                                the right one for your needs.<br></br><br></br>
                             </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -47,8 +47,8 @@ const Medical_Tourism_Guide = () => {
                                 Checking out the doctor
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                               A guide for what you should ask the doctor or surgeon in order to select 
+                                the right one for your needs.<br></br><br></br>
                             </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -66,8 +66,8 @@ const Medical_Tourism_Guide = () => {
                                Checking out the doctor
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Lizards are a widespread group of squamate reptiles, with over 6,000
-                                species, ranging across all continents except Antarctica
+                               A guide for what you should ask the doctor or surgeon in order to select 
+                                the right one for your needs.<br></br><br></br>
                             </Typography>
                             </CardContent>
                         </CardActionArea>
