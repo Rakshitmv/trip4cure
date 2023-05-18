@@ -21,7 +21,7 @@ export default function Footer() {
             
             <div className='logo_white_down'>
                 <ul className='li'>
-                <img  src={logo_white} height={150} width={120}/>
+                <img  src={logo_white} height={130} width={100}/>
             
                   </ul>
                 </div>
@@ -30,9 +30,9 @@ export default function Footer() {
           <MDBRow>
             <MDBCol lg='3' md='5' className='quick_col1'>
               
-              <h5 className='text-Uppercase mb-2 '> Quick Links</h5>
+                  <h5 className='text-Uppercase mb-2 ' style={{ fontFamily: 'Centaur' , fontWeight: 'bold '}}> Quick Links</h5>
               <div className='quick_col_1'>
-                <ul className='list-unstyled'>
+                    <ul className='list-unstyled' style={{ fontFamily: 'Poppins' }}>
                   <li>
                     <a href='#!' className='text-white'>
                       Home
@@ -70,7 +70,7 @@ export default function Footer() {
             <MDBCol lg='3' md='6' className='quick_col2'>
             
               <div className='quick_col_2'>
-                <ul className='list-unstyled mb-4'>
+                <ul className='list-unstyled mb-4' style={{ fontFamily: 'Poppins' }}>
                   <li>
                     <a href='#!' className='text-white'>
                     Privacy
@@ -102,9 +102,9 @@ export default function Footer() {
 
                 <MDBCol lg='3' md='6' className='speciality_footer'>
                   <div className='special_col'>
-                      <h5 className='text-Uppercase md-2'>Featured Specialities</h5>
+                      <h5 className='text-Uppercase md-2' style={{ fontFamily: 'Centaur' , fontWeight: 'bold' }}>Featured Specialties</h5>
                       <div className='special_col_down'>
-                        <ul className='list-unstyled mb-0'>
+                        <ul className='list-unstyled mb-0' style={{ fontFamily: 'Poppins' }}>
                           <li>
                             <a href='#!' className='text-white'>
                           Cancer Treatment
@@ -142,7 +142,7 @@ export default function Footer() {
 
                 <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
                   <div className='media_col'>
-                    <h5 className='text-Uppercase mb-2'>Connect With Us</h5>
+                    <h5 className='text-Uppercase mb-2' style={{ fontFamily: 'Centaur' , fontWeight: '900 ' }}>Connect With Us</h5>
                       <div className='logo_white'>
                         <img className='media_logo_white' src={twitter_logo} alt='img'></img>
                         <img className='media_logo_white' src={facebook_logo} alt='img'></img>
@@ -156,7 +156,7 @@ export default function Footer() {
           </div>
         </MDBContainer>
           <br></br>
-        <div className='text-center p-3' style={{ backgroundColor: 'rgb(177, 63, 63);' , borderTop: '0.3px solid white'}}>
+        <div className='text-center p-4' style={{ backgroundColor: 'rgb(177, 63, 63);' , borderTop: '0.3px solid white' , fontFamily: 'Poppins' , fontSize: 'medium'}}>
           Copyright:{' '}  &copy; {new Date().getFullYear()} Trip4Cure, All Rights Reserved.
       
         </div>

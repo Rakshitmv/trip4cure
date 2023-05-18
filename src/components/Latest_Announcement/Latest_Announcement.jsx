@@ -74,7 +74,7 @@ const Latest_Announcement = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" sx={{ color: '#ed1d24' }}>
+                            <Button size="small" color="primary" sx={{ color: '#ed1d24' , fontFamily: 'Poppins' ,  textTransform: 'capitalize'}}>
                                Read More
                             </Button>
                         </CardActions>
@@ -92,7 +92,7 @@ const Latest_Announcement = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary"  sx={{ color: '#ed1d24' }}>
+                            <Button size="small" color="primary"  sx={{ color: '#ed1d24', fontFamily: 'Poppins' ,  textTransform: 'capitalize' }}>
                               Read More
                             </Button>
                         </CardActions>
@@ -111,7 +111,7 @@ const Latest_Announcement = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button  color='secondary' aria-label="outlined danger" sx={{ color: '#ed1d24' }}  >
+                            <Button  color='secondary' aria-label="outlined danger" sx={{ color: '#ed1d24' ,fontFamily: 'Poppins' ,  textTransform: 'capitalize' }}  >
                             Read More
                             </Button>
                         </CardActions>

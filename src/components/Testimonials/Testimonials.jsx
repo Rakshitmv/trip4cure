@@ -20,8 +20,8 @@ const Testimonials = () => {
               </div>
               <div className='button_white'>
                     <button className='button_white1'></button>
-                    <button className='button_white1'></button>
-                    <button className='button_white1'></button>
+                    <button className='button_white2'></button>
+                    <button className='button_white3'></button>
               </div>
           </div>
     

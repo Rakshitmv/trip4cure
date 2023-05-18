@@ -135,9 +135,9 @@ const Featured_Medical_Center = () => {
                   </div>
               </div>
               <div className='button_red'>
-                  <button></button>
-                  <button></button>
-                  <button></button>
+                  <button className='btn_f_1'></button>
+                  <button className='btn_f_2'></button>
+                  <button className='btn_f_3'></button>
               </div>
           </div>
       </>

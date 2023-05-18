@@ -31,7 +31,7 @@ const Medical_Tourism_Guide = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary"  sx={{ color: '#ed1d24' }}>
+                            <Button size="small" sx={{ color: '#ed1d24' , fontFamily: 'Poppins' ,  textTransform: 'capitalize'}}>
                                Read More
                             </Button>
                         </CardActions>
@@ -53,7 +53,7 @@ const Medical_Tourism_Guide = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary"  sx={{ color: '#ed1d24' }}>
+                            <Button size="small" color="primary"  sx={{ color: '#ed1d24', fontFamily: 'Poppins',  textTransform: 'capitalize' }}>
                               Read More
                             </Button>
                         </CardActions>
@@ -72,7 +72,7 @@ const Medical_Tourism_Guide = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button  color='secondary' aria-label="outlined danger"  sx={{ color: '#ed1d24' }}>
+                            <Button  color='secondary' aria-label="outlined danger"  sx={{ color: '#ed1d24', fontFamily: 'Poppins' ,  textTransform: 'capitalize' }}>
                             Read More
                             </Button>
                         </CardActions>
@@ -81,9 +81,9 @@ const Medical_Tourism_Guide = () => {
                     </div>                    
                 </div>  
                 <div className='button1'>
-                    <button className='button_red1'></button>
-                    <button className='button_red1'></button>
-                    <button className='button_red1'></button>
+                    <button className='button_m_red1'></button>
+                    <button className='button_m_red2'></button>
+                    <button className='button_m_red3'></button>
                 </div>
               
 

@@ -73,9 +73,19 @@
 
 }
 
-.button_white .button_white1 {
+.button_white1, .button_white3 {
     height: 20px;
-    width: 15px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    opacity: 0.5;
+    margin: 4px;
+    /* color: white; */
+}
+
+.button_white2 {
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     border: white;
     margin: 4px;

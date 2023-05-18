@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
+@import url(//db.onlinewebfonts.com/c/8e1f2a0617863e3914ef2ccdab13480c?family=Centaur);
+
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +16,7 @@
 
 .sign_in_header {
     display: flex;
+    font-family: 'Centaur';
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -44,6 +49,7 @@
 
 .sign_in_search {
     display: flex;
+    font-family: 'Poppins';
     justify-content: center;
     align-items: center;
     margin-right: 30px;
@@ -73,12 +79,14 @@
 }
 
 .sign_in_heading {
+    font-family: 'Centaur';
     margin-left: 300px;
     margin-top: 15px;
 }
 
 .sign_in_details {
     display: flex;
+    font-family: 'Poppins';
     flex-direction: column;
     align-content: space-between;
     margin-left: 170px;
@@ -89,11 +97,13 @@
 }
 
 .checkbox {
+    font-family: 'Poppins';
     margin-left: 170px;
     
 }
 
 .forget_pwd {
+    font-family: 'Poppins';
     margin-left: 100px;
 }
 
@@ -104,12 +114,14 @@
 } */
 
 .login_btn {
+    font-family: 'Poppins';
     padding: 2px 56px;
     margin-left: 270px;
     margin-top: 30px;
 }
 
 .new_user {
+    font-family: 'Poppins';
     margin-top: 100px;
     /* border: 2px solid black; */
     text-align: center;
@@ -118,6 +130,7 @@
 
 
 .sign_up_link {
+    font-family: 'Poppins';
     margin-top: 10px;
     text-align: center;
 }

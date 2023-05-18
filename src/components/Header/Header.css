@@ -98,7 +98,7 @@
     width: 100%;
     /* max-width: 100%; */
     /* overflow: hidden; */
-    height: calc(100vh - 5vh);
+    height: calc(120vh - 5vh);
     /* border: 2px solid black; */
     background-image: url(./Images/Background.png);
     background-repeat: no-repeat;
@@ -137,6 +137,7 @@
 }
 
 .signup_btn {
+    font-family: 'Poppins';
     width: 100px;
     height: 30px;
     border: none;
@@ -144,9 +145,11 @@
 }
 
 .contact_btn {
-    background-color: #ed1d24;
+    font-family: 'Poppins';
+    background-color: #b8353b;
     border: red;
     color: white;
+    
     margin: 4px;
     width: 120px;
     height: 30px;
@@ -154,6 +157,7 @@
 }
 
 .hospital_btn {
+    font-family: 'Poppins';
     margin: 4px;
     width: 120px;
     height: 30px;
@@ -164,7 +168,7 @@
     /* border: 2px solid black; */
     width: 500px;
     text-align: left;
-    margin-left: 260px;
+    margin-left: 250px;
     margin-top: 20px;
     font-size: 40px;
     font-weight: 300;
@@ -176,7 +180,7 @@
     /* border: 2px solid black; */
     width: 700px;
     text-align: left;
-    margin-left: 260px;
+    margin-left: 250px;
     color: black;
     font-size: 65px;
     font-weight: 900;
@@ -208,7 +212,7 @@
 }
 
 .color {
-    margin-left: 0;
+    margin-left: 4px;
     width: 100px;
     height: 25px;
 }
@@ -227,11 +231,11 @@ select {
     margin-left: 1rem;
     width: 1040px;
     height: 70px;
-    margin-left: 15rem;
+    margin-left: 15.5rem;
     /* padding: 1rem; */
     /* border: 2px solid blue; */
     background-color: rgba(228, 223, 223, 0.2);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 
 
@@ -242,14 +246,14 @@ select {
     height: 70px;
     color: white;
     opacity: 0.9;
-    background-color: #ed1d24;
-    font-family: 'Centaur';
-    font-size: 25px;
+    background-color: #b8353b;
+    font-family: 'Poppins';
+    font-size: 15px;
 }
 
 .speciality {
     display: flex;
-    margin-left: 270px;
+    margin-left: 250px;
     margin-top: 50px;
     /* border: 2px solid yellowgreen; */
     width: 400px;
@@ -272,8 +276,8 @@ select {
     width: 700px;
     height: 100px;
     display: flex;
-    margin-left: 270px;
-    justify-content: space-around;
+    margin-left: 250px;
+    justify-content: space-between;
     /* border: 2px solid black; */
 }
 
@@ -289,7 +293,7 @@ select {
     background-color: white;
     border-color: white;
     color: rgba(0, 0, 0, 0.895);
-    font-family: 'Centaur';
+    font-family: 'Poppins';
     font-weight: bold;
 }
 

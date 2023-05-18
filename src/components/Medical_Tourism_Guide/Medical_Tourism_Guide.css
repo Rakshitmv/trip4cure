@@ -78,9 +78,19 @@
 
 }
 
-.button1 .button_red1 {
+
+.button_m_red1, .button_m_red3 {
     height: 20px;
-    width: 15px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid #ed1d24;
+    margin: 4px;
+    /* color: white; */
+}
+
+.button1 .button_m_red2 {
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     border: #ed1d24;
     margin: 4px;
