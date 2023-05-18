@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
+@import url(//db.onlinewebfonts.com/c/8e1f2a0617863e3914ef2ccdab13480c?family=Centaur);
 
 
 
@@ -56,8 +57,9 @@
     align-items: center;
     text-align: center;
     /* border:  2px solid rebeccapurple; */
-    font-size: small;
-    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    font-family: 'Centaur';
+    /* font-family: 'Poppins', sans-serif; */
     margin-left: 5px;
     margin-right: 200px;
     margin-top: 10px;
@@ -66,7 +68,7 @@
 .logo {
     display: flex;
     /* border:  2px solid black; */
-    width: 100px;
+    width: 90px;
     height: 30px;
     margin-top: 2px;
     margin-left: 73px;
@@ -76,14 +78,14 @@
 
 }
 
-.media_logo {
+/* .media_logo {
     display: flex;
-    /* border: 2px solid black; */
-    width: 20px;
-    height: 20px;
+    border: 2px solid black;
+    width: 15px;
+    height: 15px;
     justify-content: space-between;
 
-}
+} */
 
 #language {
     font-size: small;
@@ -164,10 +166,10 @@
     text-align: left;
     margin-left: 260px;
     margin-top: 20px;
-    font-size: large;
+    font-size: 40px;
     font-weight: 300;
     line-height: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Centaur';
 }
 
 .innertext1 {
@@ -176,10 +178,10 @@
     text-align: left;
     margin-left: 260px;
     color: black;
-    font-size: 53px;
-    font-weight: bolder;
+    font-size: 65px;
+    font-weight: 900;
     text-size-adjust: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Centaur';
 }
 
 .select-wrap {
@@ -190,7 +192,8 @@
     padding: 0 5px 5px;
     width: 400px;
     background-color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Centaur';
+    font-weight: bold;
 }
 
 .select-wrap label {
@@ -239,8 +242,9 @@ select {
     height: 70px;
     color: white;
     opacity: 0.9;
-    background-color: rgba(253, 0, 0, 0.6);
-    font-family: 'Poppins', sans-serif;
+    background-color: #ed1d24;
+    font-family: 'Centaur';
+    font-size: 25px;
 }
 
 .speciality {
@@ -259,7 +263,7 @@ select {
 
 .speciality_red {
     border-color: red;
-    color: red;
+    color: #ed1d24;
 }
 
 .browse_option {
@@ -276,7 +280,7 @@ select {
 .browse_option .options {
     display: flex;
     flex-direction: column;
-    
+    text-align: center;
     align-content: center;
     width: 100px;
     height: 100px;
@@ -285,12 +289,15 @@ select {
     background-color: white;
     border-color: white;
     color: rgba(0, 0, 0, 0.895);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Centaur';
+    font-weight: bold;
 }
 
 .options .option-icons {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 60px;
     height: 50px;
     margin-left: 20px;

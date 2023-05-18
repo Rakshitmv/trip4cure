@@ -32,10 +32,10 @@ const Featured_Medical_Center = () => {
                         alt="Hospital"
                         />
                         <CardContent>
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}}>
                             Galenia Hospital
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins'}}>
                           <p>Mexico- 16 specialties</p>
                         </Typography>
                         </CardContent>
@@ -50,16 +50,16 @@ const Featured_Medical_Center = () => {
                         alt="Hospital"
                         />
                         <CardContent>
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}}>
                             Apollo Hospital Chennai
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins'}}>
                             India- 25 Specialties
                         </Typography>
                         </CardContent>
                     </CardActionArea>
                     </Card> 
-                    <Card sx={{ maxWidth: 300, minWidth: 300, }}>
+                    <Card sx={{ maxWidth: 300, minWidth: 300 }}>
                     <CardActionArea>
                         <CardMedia
                         component="img"
@@ -68,10 +68,10 @@ const Featured_Medical_Center = () => {
                         alt="hospital"
                         />
                         <CardContent>
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}}>
                             Hospital Universitario Austral
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins'}}>
                            Argentina- 3 specialties
                         </Typography>
                         </CardContent>
@@ -86,10 +86,10 @@ const Featured_Medical_Center = () => {
                         alt="green iguana"
                         />
                         <CardContent>
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}}>
                             KPJ Damansara Specialist Hospital
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins'}}>
                          Malayasia- 28 specialties
                         </Typography>
                         </CardContent>
@@ -104,10 +104,10 @@ const Featured_Medical_Center = () => {
                         alt="green iguana"
                         />
                         <CardContent>
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}} >
                             Apollo Hospital Chennai
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins'}}>
                            India- 25 specialties
                         </Typography>
                         </CardContent>
@@ -122,10 +122,10 @@ const Featured_Medical_Center = () => {
                         alt="green iguana"
                         />
                         <CardContent>
-                        <Typography gutterBottom variant="h6" component="div">
+                        <Typography gutterBottom variant="h6" component="div"  sx={{fontFamily: 'Centaur', fontWeight: '900'}} >
                            Hospital Universitario Austral
                         </Typography>
-                        <Typography variant="body2" color="text.secondary">
+                        <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins'}}>
                             Argenitina- 3 specialties
                         </Typography>
                         </CardContent>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
+@import url(//db.onlinewebfonts.com/c/8e1f2a0617863e3914ef2ccdab13480c?family=Centaur);
 
 * {
     margin: 0;
@@ -17,6 +18,7 @@
 }
 
 .destination_heading {
+    /* border: 2px solid black; */
     font-size: xx-large;
     margin-top: 50px;
 }
@@ -26,10 +28,13 @@
     /* margin-left: 300px; */
     height: 50px;
     width: 500px;
+    margin-top: 50px;
+    /* margin-top: 60px; */
     margin-left: 300px;
     text-align: start;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Centaur';
+    font-size: larger;
+    font-weight: bold;
 }
 
 .destination_info {
@@ -177,7 +182,7 @@
 }
 
 .destination_btn {
-    color: red;
-    border-color: red;
+    color: #ed1d24;
+    border-color: #ed1d24;
     padding: 4px 32px;
 }

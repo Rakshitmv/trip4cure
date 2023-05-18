@@ -1,5 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,300&display=swap');
- 
+ @import url(//db.onlinewebfonts.com/c/8e1f2a0617863e3914ef2ccdab13480c?family=Centaur);
+
  * {
     margin: 0;
     padding: 0;
@@ -14,9 +15,9 @@
     height: 100vh;
     background-image: url(./Images/Map.png);
     background-repeat: no-repeat;
-    background-size: contain;
     background-size: auto;
-    /* border: 2px solid green; */
+        
+    /* border: 2px solid rgb(6, 230, 6); */
     /* padding-left: 280px; */
 }
 
@@ -30,13 +31,14 @@
 
 .tourism_heading {
     font-size: xx-large;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
+    font-family: 'Centaur';
+    font-weight: 900;
 }
 
 .tourism_info {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: small;
 }
 
 .section_2 {
@@ -80,8 +82,8 @@
     height: 20px;
     width: 15px;
     border-radius: 50%;
-    border: red;
+    border: #ed1d24;
     margin: 4px;
-    background-color: rgb(199, 51, 51);
+    background-color: #ed1d24;
 
 }

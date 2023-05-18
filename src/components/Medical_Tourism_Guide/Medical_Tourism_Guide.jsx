@@ -21,17 +21,17 @@ const Medical_Tourism_Guide = () => {
                         <CardActionArea >
                             
                             <CardContent>
-                            <Typography gutterBottom variant="h6" component="div" >
+                            <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}}>
                                Checking out the doctor
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins'}}>
                                 A guide for what you should ask the doctor or surgeon in order to select 
                                 the right one for your needs.<br></br><br></br>
                             </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary"  sx={{ color: 'red' }}>
+                            <Button size="small" color="primary"  sx={{ color: '#ed1d24' }}>
                                Read More
                             </Button>
                         </CardActions>
@@ -43,17 +43,17 @@ const Medical_Tourism_Guide = () => {
                         <CardActionArea >
                           
                             <CardContent>
-                            <Typography gutterBottom variant="h6" component="div">
+                            <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}}>
                                 Checking out the doctor
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins'}}>
                                A guide for what you should ask the doctor or surgeon in order to select 
                                 the right one for your needs.<br></br><br></br>
                             </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary"  sx={{ color: 'red' }}>
+                            <Button size="small" color="primary"  sx={{ color: '#ed1d24' }}>
                               Read More
                             </Button>
                         </CardActions>
@@ -62,17 +62,17 @@ const Medical_Tourism_Guide = () => {
                         <CardActionArea>
                             
                             <CardContent>
-                            <Typography gutterBottom variant="h6" component="div">
+                            <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}}>
                                Checking out the doctor
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins'}}>
                                A guide for what you should ask the doctor or surgeon in order to select 
                                 the right one for your needs.<br></br><br></br>
                             </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button  color='secondary' aria-label="outlined danger"  sx={{ color: 'red' }}>
+                            <Button  color='secondary' aria-label="outlined danger"  sx={{ color: '#ed1d24' }}>
                             Read More
                             </Button>
                         </CardActions>

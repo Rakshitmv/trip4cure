@@ -64,17 +64,17 @@ const Latest_Announcement = () => {
                         <CardActionArea >
                             
                             <CardContent>
-                            <Typography gutterBottom variant="h6" component="div" >
+                            <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}} >
                                Our New Miami Beach Hotel Is Open!
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins' ,fontSize: '13px'}}>
                                A guide for what you should ask the doctor or surgeon in order to select 
                                 the right one for your needs.
                             </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary" sx={{ color: 'red' }}>
+                            <Button size="small" color="primary" sx={{ color: '#ed1d24' }}>
                                Read More
                             </Button>
                         </CardActions>
@@ -82,17 +82,17 @@ const Latest_Announcement = () => {
                              <Card className='announce_card_1'>
                         <CardActionArea >                        
                             <CardContent>
-                            <Typography gutterBottom variant="h6" component="div">
+                            <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}}>
                                 Know the secret of Resort
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins' }}>
                                <br></br> A guide for what you should ask the doctor or surgeon in order to select 
                                 the right one for your needs.
                             </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary"  sx={{ color: 'red' }}>
+                            <Button size="small" color="primary"  sx={{ color: '#ed1d24' }}>
                               Read More
                             </Button>
                         </CardActions>
@@ -101,17 +101,17 @@ const Latest_Announcement = () => {
                         <CardActionArea>
                             
                             <CardContent>
-                            <Typography gutterBottom variant="h6" component="div">
+                            <Typography gutterBottom variant="h6" component="div" sx={{fontFamily: 'Centaur', fontWeight: '900'}}>
                                How to book a Resort in best price on Mountain
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" sx= {{fontFamily: 'Poppins' ,fontSize: '13px'}}>
                                 A guide for what you should ask the doctor or surgeon in order to select 
                                 the right one for your needs.
                             </Typography>
                             </CardContent>
                         </CardActionArea>
                         <CardActions>
-                            <Button  color='secondary' aria-label="outlined danger" sx={{ color: 'red' }}  >
+                            <Button  color='secondary' aria-label="outlined danger" sx={{ color: '#ed1d24' }}  >
                             Read More
                             </Button>
                         </CardActions>
