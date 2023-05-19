@@ -16,7 +16,7 @@ const Sign_Up = () => {
      async function signUp() {
         let item = { first_name,last_name,email,password,c_password,role,country}
         console.warn(item)
-        let result = await fetch("http://13.234.216.30:8080/login/", {
+        let result = await fetch("http://13.234.216.30:8080/register/", {
             method: 'POST',
             body: JSON.stringify(item),
             headers: {
