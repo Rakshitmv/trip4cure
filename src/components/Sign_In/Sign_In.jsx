@@ -1,9 +1,28 @@
-import React from 'react'
+import React, {useState} from 'react';
 import './Sign_In.css'
 import signin_search from './Images/Signin_Search.png';
 import signin from './Images/Sign_In.png';
 
 const Sign_In = () => {
+
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+
+     async function signIn() {
+        let item = {email, password}
+        console.warn(item)
+        let result = await fetch("http://13.234.216.30:8080/login/", {
+            method: 'POST',
+            body: JSON.stringify(item),
+            headers: {
+                "Content-Type": 'application/json',
+                "Accept": 'application/json'
+            }
+        })  
+         result = await result.json()
+         console.warn("result", result);
+         localStorage.setItem("userinfo",JSON.stringify(result))
+    }
   return (
       <>
           <div className='sign_in_page'>
@@ -25,15 +44,15 @@ const Sign_In = () => {
                         <img className='sign_in_logo' src={signin}></img>
                         <h3 className='sign_in_heading'>Sign In</h3>
                         <div className='sign_in_details'>                                     
-                            <input type="email" className="email_in" placeholder='Email'/>  <br></br>
-                            <input type="password" className="pwd_in" placeholder='Password' /><br></br>                    
+                            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="email_in" placeholder='Email'/>  <br></br>
+                      <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} className="pwd_in" placeholder='Password' /><br></br>                    
                         </div>
                         <div>
                           <input type="checkbox" value="lsRememberMe" id="rememberMe" className='checkbox'/>
                           <label for="rememberMe" />Remember me
                           <a className='forget_pwd' href='#' >Forget Password ?</a>
                         </div>
-                        <button className='login_btn'>Login</button>
+                  <button onClick={signIn} className='login_btn'>Login</button>
                         <div className='new_user'>
                             <a className='user'>New User ?</a>
                         </div>

@@ -44,14 +44,14 @@ const Header = () => {
           <div className='header1'>
             <img id='main_logo' src={main_logo} alt='image'></img>
             <div className='button_1'>
-              <button className='signup_btn'>Sign In</button>
+              <button  className='signup_btn'>Sign In</button>
               <button className='contact_btn'>Contact Us</button>
               <button className='hospital_btn'>Hospital Login</button>
             </div>
           </div> 
           <div className='text'>
-            <h1 className='innertext'>Wellness & Medical</h1>
-            <h1> tourism for</h1>
+            <h1 className='innertext'>Wellness & Medical tourism for</h1>
+            {/* <h1 className='innertext'> tourism for</h1> */}
           </div>
           <p className='innertext1'>Everyone, Everywhere.</p>
           <div className='select' >

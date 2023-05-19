@@ -1,9 +1,34 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Sign_Up.css';
 import signup_search from './Images/Signup_Search.png';
 import signup from './Images/Sign_Up.png';
 
 const Sign_Up = () => {
+
+    const [first_name, setFirst_Name] = useState("")
+    const [last_name, setLast_Name] = useState("")
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+    const [c_password, setC_Password] = useState("")
+    const [role, setRole] = useState("")
+    const [country, setCountry] = useState("")
+
+     async function signUp() {
+        let item = { first_name,last_name,email,password,c_password,role,country}
+        console.warn(item)
+        let result = await fetch("http://13.234.216.30:8080/login/", {
+            method: 'POST',
+            body: JSON.stringify(item),
+            headers: {
+                "Content-Type": 'application/json',
+                "Accept": 'application/json'
+            }
+        })  
+         result = await result.json()
+         console.warn("result", result);
+         localStorage.setItem("userinfo",JSON.stringify(result))
+    }
+    
   return (
       <>
           <div className='sign_up_page'>
@@ -26,14 +51,15 @@ const Sign_Up = () => {
                       <h3 className='sign_up_heading'>Sign Up</h3>
                       <div className='sign_up_details'>
                           
-                              <input type="text"  className="fname" placeholder='First Name' /><br></br>
-                              <input type="text" className="lname" placeholder='Last Name' /> <br></br>
-                              <input type="email" className="email" placeholder='Email'/>  <br></br>
-                              <input type="password" className="pwd" placeholder='Password' /><br></br>
-                              <input type="password" className="confirm_pwd" placeholder='Confirm Password' /><br></br>
+                              <input type="text"  value={first_name} onChange={(e) => setFirst_Name(e.target.value)} className="fname" placeholder='First Name' /><br></br>
+                              <input type="text" value={last_name} onChange={(e) => setLast_Name(e.target.value)} className="lname" placeholder='Last Name' /> <br></br>
+                              <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="email"  placeholder='Email'/>  <br></br>
+                              <input type="password"  value={password} onChange={(e) => setPassword(e.target.value)} className="pwd" placeholder='Password' /><br></br>
+                              <input type="password" value={c_password} onChange={(e) => setC_Password(e.target.value)} className="confirm_pwd" placeholder='Confirm Password' /><br></br>
+                      
                                                 
                       </div>
-                      <button className='register_btn'>Register</button>
+                      <button  onClick={signUp} className='register_btn'>Register</button>
                   </div>
               </div>
          

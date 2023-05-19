@@ -149,7 +149,7 @@
     background-color: #b8353b;
     border: red;
     color: white;
-    
+
     margin: 4px;
     width: 120px;
     height: 30px;
@@ -165,26 +165,40 @@
 }
 
 .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 90px;
     /* border: 2px solid black; */
-    width: 500px;
+    width: 300px;
     text-align: left;
     margin-left: 250px;
     margin-top: 20px;
     font-size: 40px;
     font-weight: 300;
-    line-height: 20px;
+    /* line-height: 10px; */
     font-family: 'Centaur';
 }
 
+/* .innertext{
+    line-height: 20px;
+    border: 2px solid blue;
+    height: 40px;
+    width: 500px;
+} */
+
 .innertext1 {
+    display: flex;
+    justify-content: flex-start;
     /* border: 2px solid black; */
+    height: 80px;
     width: 700px;
     text-align: left;
     margin-left: 250px;
     color: black;
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 900;
-    text-size-adjust: 50px;
+    /* text-size-adjust: 90px; */
     font-family: 'Centaur';
 }
 
@@ -192,9 +206,11 @@
     /* border: 1px solid #777; */
     border-radius: 4px;
     text-align: left;
+    margin-right: 20px;
     margin-bottom: 10px;
     padding: 0 5px 5px;
     width: 400px;
+    opacity: 0.7;
     background-color: white;
     font-family: 'Centaur';
     font-weight: bold;
@@ -232,9 +248,9 @@ select {
     width: 1040px;
     height: 70px;
     margin-left: 15.5rem;
-    /* padding: 1rem; */
+    margin-top: 30px;
     /* border: 2px solid blue; */
-    background-color: rgba(228, 223, 223, 0.2);
+    /* background-color: rgba(228, 223, 223, 0.2); */
     font-family: 'Poppins';
 }
 
@@ -243,7 +259,7 @@ select {
 .btn_btn_info {
     margin-left: 20px;
     width: 120px;
-    height: 70px;
+    height: 60px;
     color: white;
     opacity: 0.9;
     background-color: #b8353b;
@@ -256,6 +272,7 @@ select {
     margin-left: 250px;
     margin-top: 50px;
     /* border: 2px solid yellowgreen; */
+    
     width: 400px;
     height: 30px;
     border-color: red;
@@ -274,8 +291,9 @@ select {
     display: flex;
     align-items: center;
     width: 700px;
-    height: 100px;
+    height: 130px;
     display: flex;
+    margin-top: 10px;
     margin-left: 250px;
     justify-content: space-between;
     /* border: 2px solid black; */
@@ -287,14 +305,15 @@ select {
     text-align: center;
     align-content: center;
     width: 100px;
-    height: 100px;
+    height: 130px;
+    padding-top: 20px;
     /* border: 2px solid black; */
-    opacity: 1;
+    /* opacity: 1; */
     background-color: white;
     border-color: white;
     color: rgba(0, 0, 0, 0.895);
     font-family: 'Poppins';
-    font-weight: bold;
+    
 }
 
 .options .option-icons {
@@ -304,6 +323,7 @@ select {
     text-align: center;
     width: 60px;
     height: 50px;
+    /* opacity: 0.6; */
     margin-left: 20px;
     
     /* border: 2px solid black; */

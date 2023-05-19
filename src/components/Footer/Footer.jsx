@@ -156,7 +156,7 @@ export default function Footer() {
           </div>
         </MDBContainer>
           <br></br>
-        <div className='text-center p-4' style={{ backgroundColor: 'rgb(177, 63, 63);' , borderTop: '0.3px solid white' , fontFamily: 'Poppins' , fontSize: 'medium'}}>
+        <div className='text-center' style={{   borderTop: '0.2px solid white' , fontFamily: 'Poppins' , fontSize: 'medium' ,paddingTop: '15px' , paddingLeft: '-30px'}}>
           Copyright:{' '}  &copy; {new Date().getFullYear()} Trip4Cure, All Rights Reserved.
       
         </div>

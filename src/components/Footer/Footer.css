@@ -14,6 +14,7 @@
 
 .logo_white_down {
     /* margin-top: 50px; */
+    
     margin-left: 100px;
     width: 180px;
     height: 180px;
@@ -68,14 +69,14 @@
 .quick_col_2 {
     width: 150px;
     margin-left: -80px;
-    margin-top: 17px;
+    margin-top: 16px;
     /* border: 2px solid rgb(230, 219, 219); */
 }
 
 .quick_col2 {
     padding-top: 30px;
     font-size: 14px;
-    line-height: 1.9;
+    line-height: 2;
     /* border: 2px solid black; */
 }
 
@@ -86,8 +87,8 @@
 }
 
 .special_col_down {
-    margin-top: 25px;
-    line-height: 1.9;
+    margin-top: 21px;
+    line-height: 2;
     font-size: 14;
     /* border: 2px solid white; */
     width: 210px;
@@ -97,7 +98,7 @@
 .speciality_footer {
     /* border: 2px solid black; */
     font-size: 14px;
-    line-height: 1.9;
+    line-height: 2;
 }
 
 .media_col {
