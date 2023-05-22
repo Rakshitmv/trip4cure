@@ -10,7 +10,7 @@ import Latest_Announcement from './components/Latest_Announcement/Latest_Announc
 import Footer from './components/Footer/Footer';
 import Sign_Up from './components/Sign_Up/Sign_Up';
 import Sign_In from './components/Sign_In/Sign_In';
-
+import Otp from './components/Otp/Otp';
 
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
       <Latest_Announcement />
       <Footer />
       <Sign_Up />
+      <Otp />
       <Sign_In />
     </div>
   );

@@ -54,6 +54,48 @@ const Header = () => {
             {/* <h1 className='innertext'> tourism for</h1> */}
           </div>
           <p className='innertext1'>Everyone, Everywhere.</p>
+          
+          <div className='speciality'>
+            <p className='speciality_text'>Or browse Top Specialties:</p>
+            <span className='speciality_red'>View All Specialties</span>
+          </div>
+          <div className='browse_option'>
+            <div className='options'>
+              <div className='option-icons'>
+                <img src={cancer}></img></div>
+              <p>Cancer Treatment</p>
+            </div >
+            <div className='options'>
+              <div className='option-icons'>
+                <img src={cardiac}></img>
+              </div>
+              <p>Cardiac Surgery</p>
+            </div>
+            <div className='options'>
+              <div className='option-icons'>
+                <img src={cosmetic}></img>
+              </div>
+              <p>Cosmetic Surgery</p>
+            </div>
+            <div className='options'>
+              <div className='option-icons'>
+                <img src={fertility}></img>
+              </div>
+              <p>Fertility Treatment</p>
+            </div>
+            <div className='options'>
+              <div className='option-icons'>
+                <img src={neurology}></img>
+              </div>
+              <p>Neurology</p>
+            </div>
+            <div className='options'>
+              <div className='option-icons'>
+                <img src={ortho}></img>
+              </div>
+              <p>Orthopedic Surgery</p>
+            </div>
+          </div>
           <div className='select' >
                       <div className="select-wrap">
                         <label className='left_side1'>Choose Speciality</label> <br></br>
@@ -96,47 +138,6 @@ const Header = () => {
                   <img src={search}></img> Search
                </button>
           </div>
-          </div>
-          <div className='speciality'>
-            <p className='speciality_text'>Or browse Top Specialties:</p>
-            <span className='speciality_red'>View All Specialties</span>
-          </div>
-          <div className='browse_option'>
-            <div className='options'>
-              <div className='option-icons'>
-                <img src={cancer}></img></div>
-              <p>Cancer Treatment</p>
-            </div >
-            <div className='options'>
-              <div className='option-icons'>
-                <img src={cardiac}></img>
-              </div>
-              <p>Cardiac Surgery</p>
-            </div>
-            <div className='options'>
-              <div className='option-icons'>
-                <img src={cosmetic}></img>
-              </div>
-              <p>Cosmetic Surgery</p>
-            </div>
-            <div className='options'>
-              <div className='option-icons'>
-                <img src={fertility}></img>
-              </div>
-              <p>Fertility Treatment</p>
-            </div>
-            <div className='options'>
-              <div className='option-icons'>
-                <img src={neurology}></img>
-              </div>
-              <p>Neurology</p>
-            </div>
-            <div className='options'>
-              <div className='option-icons'>
-                <img src={ortho}></img>
-              </div>
-              <p>Orthopedic Surgery</p>
-            </div>
           </div>
        
         </div>
